@@ -1,0 +1,7 @@
+{
+  "name": "Vòng quay Tri thức - Tin Học 10",
+  "description": "Ứng dụng ôn tập Tin học 10 với Bánh xe may mắn và AI tạo câu hỏi tự động từ nội dung bài học.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
