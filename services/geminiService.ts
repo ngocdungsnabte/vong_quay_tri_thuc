@@ -8,7 +8,7 @@ export async function processInputData(
   numQuestions: number = 15,
   images: string[] = []
 ): Promise<{ questions: Question[], students: string[] }> {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
   const prompt = `
     Bạn là một chuyên gia sư phạm Tin học 10. 
